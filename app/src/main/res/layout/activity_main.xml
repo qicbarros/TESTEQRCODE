@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_scan"
+        android:layout_width="210dp"
+        android:layout_height="45dp"
+        android:text="@string/leitura"
+        android:textColor="#81D4FA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.318"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_teste2"
+        app:layout_constraintVertical_bias="0.745"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/txt_teste2"
+        android:layout_width="385dp"
+        android:layout_height="104dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="668dp"
+        android:shadowColor="#E4DBDB"
+        android:textColor="@color/purple_700"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_teste"
+        android:layout_width="136dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="280dp"
+        android:freezesText="false"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:shadowColor="#E4DBDB"
+        android:text="@string/desenvolvido_por_equipe_ti_trancal_sul"
+        android:textAllCaps="false"
+        android:textColor="#389E3C"
+        android:textSize="8sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif"
+        android:visibility="visible"
+        app:autoSizeTextType="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.289"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_teste2"
+        app:layout_constraintVertical_bias="0.006"
+        tools:ignore="TextContrastCheck"
+        tools:targetApi="ice_cream_sandwich" />
+
+    <Button
+        android:id="@+id/btn_tela2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:text="@string/listar_funcionarios"
+        android:textColor="#81D4FA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.31"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_teste2"
+        app:layout_constraintVertical_bias="0.838"
+        tools:ignore="TextContrastCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
